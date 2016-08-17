@@ -16,7 +16,7 @@
  */
 
 // Bar content.
-$bar-content-bg: #f70 !default;
+$bar-content-bg: #E1132B !default;
 $bar-content-border: transparent !default;
 $bar-content-text: #fff !default;
 
@@ -706,5 +706,53 @@ mm-format-text {
 
   .cke_toolbox_main {
     margin: 0;
+  }
+}
+
+
+// adding App custom CSS classes
+
+// CSS classes for login page. Credentials.html
+.login-page {
+  .login-sign-up{
+  text-align: center;
+  position: fixed;
+  height: 50px;
+  bottom: 0px;
+  padding: 15px;
+  color: #676767;
+  background-color: #F9F9F9;
+  width: 100%;
+  border: 1px solid #EBEBEB;
+  }
+  .login-sign-up .sign-up{
+  color: #E31B39;
+  display:inline-block;
+  }
+  .login-form{
+  color: #959595;
+  position: fixed;
+  bottom: 50px;
+  width: 100%;
+  margin-top: 10px;
+  }
+  .login-form .username-input ,.login-form .password-input{
+  background-color: transparent;
+  border-color: transparent;
+  color: #919191;
+  border-radius: 0;
+  border-bottom: 1px solid #8D8D8D;
+  }
+  .login-form .username-input:focus ,.login-form .password-input:focus {
+  background-color: transparent;
+  border-color: transparent;
+  -webkit-box-shadow: 3px 3px 5px 6px transparent; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 3px 5px 6px transparent; /* Firefox 3.5 - 3.6 */
+  box-shadow: 3px 3px 5px 6px transparent;
+  }
+  .login-form .sign-in-button{
+  background-color: #E31B39;
+  border-radius: 0;
+  color: #FFFFFF;
   }
 }

@@ -32,5 +32,13 @@
     "siteurlrequired": "Site URL required, i.e <i>http://www.yourmoodlesite.abc or https://www.yourmoodlesite.efg</i>",
     "username": "Username",
     "usernamerequired": "Username required",
-    "webservicesnotenabled": "Web Services are not enabled in your site. Please, contact your Moodle site administrator if you think mobile access should be enabled."
+    "webservicesnotenabled": "Web Services are not enabled in your site. Please, contact your Moodle site administrator if you think mobile access should be enabled.",
+    "confrimPassword":"Confirm password",
+    "signUp":"Sign Up",
+    "SIGNUP":"SIGN UP",
+    "SIGNIN":"SIGN IN",
+    "forgotPassword":"FORGOT PASSWORD",
+    "dontHaveAccount":"DON'T HAVE AN ACCOUNT?",
+    "confirmpasswordrequired":"Confirm password required"
+
 }
