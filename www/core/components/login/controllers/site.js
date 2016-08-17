@@ -24,7 +24,7 @@ angular.module('mm.core.login')
 .controller('mmLoginSiteCtrl', function($scope, $state, $mmSitesManager, $mmUtil, $translate, $ionicHistory, $mmApp,
         $ionicModal, $mmLoginHelper) {
 
-    $scope.siteurl = '';
+    $scope.siteurl = 'http://school.demo.moodle.net';
 
     $scope.connect = function(url) {
 
@@ -99,5 +99,7 @@ angular.module('mm.core.login')
             helpModal.remove();
         });
     });
+
+    $scope.connect($scope.siteurl)
 
 });
