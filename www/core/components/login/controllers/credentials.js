@@ -137,4 +137,10 @@ angular.module('mm.core.login')
         });
     };
 
+    $scope.signUp = function() {
+
+      $mmApp.closeKeyboard();
+      $mmLoginHelper.goToSignUpPage($scope.siteurl);
+    }
+
 });

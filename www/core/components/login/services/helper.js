@@ -212,5 +212,14 @@ angular.module('mm.core.login')
         }
     };
 
+/*
+Adding new method to navigate to the sign up page
+*/
+        self.goToSignUpPage = function (siteurl) {
+            $state.go("mm_signup", {siteurl:siteurl})
+
+        }
+
+
     return self;
 });

@@ -141,6 +141,8 @@ angular.module('mm.core.login', [])
 
         if (toState.name.substr(0, 8) === 'redirect' || toState.name.substr(0, 15) === 'mm_contentlinks') {
             return;
+        } else if (toState.name === 'mm_signup') {
+          return;
         } else if ((toState.name.substr(0, 8) !== 'mm_login' || toState.name === 'mm_login.reconnect') && !$mmSite.isLoggedIn()) {
             // We are not logged in.
             event.preventDefault();
