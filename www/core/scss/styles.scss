@@ -742,7 +742,7 @@ mm-format-text {
     overflow: auto;
   }
 
-  .login-form .password-icon,.login-form .username-icon {
+  .login-form .password-icon,.login-form .username-icon, .login-form .email-icon {
     width:10%;
     font-size: 27px;
     position: relative;
@@ -773,4 +773,18 @@ mm-format-text {
   border-radius: 0;
   color: #FFFFFF;
   }
+}
+.bar.bar-positive {
+  border-color: $bar-content-bg;
+  background-color: $bar-content-bg;
+  background-image: linear-gradient(0deg, $bar-content-bg, $bar-content-bg 50%, transparent 50%);
+  color: $bar-content-text;
+}
+.sign-up-title{
+  margin-top:7px;
+  font-size:17px;
+}
+
+.login-module .bar-header .title {
+  text-align: center;
 }

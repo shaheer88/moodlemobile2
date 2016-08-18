@@ -1,38 +1,45 @@
-<ion-nav-bar class="bar-content">
-  <ion-nav-back-button></ion-nav-back-button>
-</ion-nav-bar>
-<ion-view view-title="{{ 'mm.signup.signuptitle' | translate }}">
-  <ion-content mm-state-class>
-    <div class="sign-up-page login-page">
-      <div class="col-md-12 login-form">
-        <div class="">
-          <div class="col-md-8 form-group col-md-offset-2">
-            <input type="text" class="form-control username-input" placeholder="{{ 'mm.signup.username' | translate }}" ng-model="signup.username"/>
-          </div>
-        </div>
-        <div class="">
-          <div class="col-md-8 form-group col-md-offset-2">
-            <input type="text" class="form-control username-input" placeholder="{{ 'mm.signup.email' | translate }}" ng-model="signup.email"/>
-          </div>
-        </div>
-        <div class="">
-          <div class="col-md-8 form-group col-md-offset-2">
-            <input type="password" class="form-control password-input" placeholder="{{ 'mm.signup.password' | translate }}" ng-model="signup.password"/>
-          </div>
-        </div>
-        <div class="">
-          <div class="col-md-8 form-group col-md-offset-2">
-            <input type="password" class="form-control password-input" placeholder="{{ 'mm.signup.password' | translate }}" ng-model="signUp.confirmPassword"/>
-          </div>
-        </div>
-        <div class="">
-          <div class="col-md-8 form-group col-md-offset-2">
-            <button ng-click="signup()" class="btn sign-in-button form-control btn-default">
-              {{ 'mm.login.signUp' | translate }}
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </ion-content>
-</ion-view>
+<ion-header-bar align-title="left" class="bar-positive">
+  <div class="text-left sign-up-title col-xs-4" ng-click="goToSignIn()">
+    <i class = "icon icon ion-android-arrow-back"></i> 
+  </div>
+  <div class="text-center sign-up-title col-xs-4">
+    {{ 'mm.signup.signuptitle' | translate }}
+  </div>
+</ion-header-bar>
+<ion-content mm-state-class>
+  <div class="sign-up-page login-page">
+     <div class="col-md-12 login-form">
+       <div class="">
+         <div class="col-md-8 form-group col-md-offset-2">
+           <i class = "icon icon ion-android-person username-icon"></i>
+           <input type="text" class="form-control username-input" placeholder="{{ 'mm.signup.username' | translate }}" ng-model="signup.username"/>
+         </div>
+       </div>
+       <div class="">
+         <div class="col-md-8 form-group col-md-offset-2">
+         <i class = "icon icon ion-email email-icon"></i>
+           <input type="text" class="form-control username-input" placeholder="{{ 'mm.signup.email' | translate }}" ng-model="signup.email"/>
+         </div>
+       </div>
+       <div class="">
+         <div class="col-md-8 form-group col-md-offset-2">
+           <i class = "icon icon ion-android-lock password-icon"></i>
+           <input type="password" class="form-control password-input" placeholder="{{ 'mm.signup.password' | translate }}" ng-model="signup.password"/>
+         </div>
+       </div>
+       <div class="">
+         <div class="col-md-8 form-group col-md-offset-2">
+           <i class = "icon icon ion-android-lock password-icon"></i>
+           <input type="password" class="form-control password-input" placeholder="{{ 'mm.signup.confirmpassword' | translate }}" ng-model="signUp.confirmPassword"/>
+         </div>
+       </div>
+       <div class="">
+         <div class="col-md-8 form-group col-md-offset-2">
+           <button ng-click="signup()" class="btn sign-in-button form-control btn-default">
+             {{ 'mm.login.signUp' | translate }}
+           </button>
+         </div>
+       </div>
+     </div>
+   </div>
+</ion-content>

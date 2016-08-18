@@ -1,9 +1,10 @@
 {
-  "password": "Password",
-  "username": "Username",
-  "confirmpassword": "Confirm Password",
-  "email": "Email",
-  "signuptitle": "Sign Up",
+  "password": "PASSWORD",
+  "username": "USERNAME",
+  "confirmpassword": "CONFIRM PASSWORD",
+  "email": "EMAIL",
+  "signuptitle": "SIGNUP",
+  "backbutton": "Back",
 
   "usernameerror": "Enter valid Username",
   "error": "",

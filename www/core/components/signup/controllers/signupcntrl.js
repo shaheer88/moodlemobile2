@@ -1,7 +1,7 @@
 angular.module('mm.core.signup')
 
 .controller('mmSignUpCntrl', function($scope, $state, $stateParams, $mmSitesManager, $mmUtil, $ionicHistory, $mmApp,
-            $q, $mmLoginHelper, $translate, $mmContentLinksDelegate, $mmContentLinksHelper) {
+            $q, $mmSignUpHelper, $translate, $mmContentLinksDelegate, $mmContentLinksHelper) {
 
              $scope.siteurl = $stateParams.siteurl;
 
@@ -16,7 +16,14 @@ angular.module('mm.core.signup')
                     $mmUtil.showErrorModal('mm.signup.usernameerror', true);
                     return;
                 }
+             }
+
+             $scope.goToSignIn = function() {
+
+               $mmSignUpHelper.goBackToSignInPage($scope.siteurl);
 
              }
+
+
 
 })
