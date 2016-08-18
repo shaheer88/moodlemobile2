@@ -3,5 +3,10 @@
   "username": "Username",
   "confirmpassword": "Confirm Password",
   "email": "Email",
-  "signuptitle": "Sign Up"
+  "signuptitle": "Sign Up",
+
+  "usernameerror": "Enter valid Username",
+  "error": "",
+  "error": "",
+  "error": ""
 }

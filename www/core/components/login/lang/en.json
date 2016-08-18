@@ -21,7 +21,7 @@
     "mobileservicesnotenabled": "Mobile Services are not enabled in your site. Please, contact your Moodle site administrator if you think mobile access should be enabled.",
     "newsitedescription": "Please enter the URL of your Moodle site. Note that it might not be configured to work with this app.",
     "notloggedin": "You need to be logged in.",
-    "password": "Password",
+    "password": "PASSWORD",
     "passwordrequired": "Password required",
     "reconnect": "Reconnect",
     "reconnectdescription": "Your authentication token is invalid or has expired, you have to reconnect to the site.",
@@ -30,7 +30,7 @@
     "siteinmaintenance": "Your site is in maintenance mode",
     "siteurl": "Site URL",
     "siteurlrequired": "Site URL required, i.e <i>http://www.yourmoodlesite.abc or https://www.yourmoodlesite.efg</i>",
-    "username": "User name",
+    "username": "USERNAME",
     "usernamerequired": "Username required",
     "webservicesnotenabled": "Web Services are not enabled in your site. Please, contact your Moodle site administrator if you think mobile access should be enabled.",
     "confrimPassword":"Confirm password",
@@ -39,13 +39,5 @@
     "SIGNIN":"SIGN IN",
     "forgotPassword":"FORGOT PASSWORD",
     "dontHaveAccount":"DON'T HAVE AN ACCOUNT?",
-    "confirmpasswordrequired":"Confirm password required",
-
-    "sign_password": "Password",
-    "sign_username": "Username",
-    "sign_confirmpassword": "Confirm Password",
-    "sign_email": "Email",
-    "sign_signuptitle": "Sign Up"
-
-
+    "confirmpasswordrequired":"Confirm password required"
 }

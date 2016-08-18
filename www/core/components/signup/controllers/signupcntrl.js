@@ -5,4 +5,18 @@ angular.module('mm.core.signup')
 
              $scope.siteurl = $stateParams.siteurl;
 
+             $scope.signup = function () {
+
+                var userName = $scope.signup.username,
+                    password = $scope.signup.password,
+                    confirmPassword = $scope.signup.confirmpassword,
+                    email = $scope.signup.email;
+
+                if (!userName) {
+                    $mmUtil.showErrorModal('mm.signup.usernameerror', true);
+                    return;
+                }
+
+             }
+
 })

@@ -736,12 +736,30 @@ mm-format-text {
   width: 100%;
   margin-top: 10px;
   }
+
+  .login-form .form-group {
+    display: block;
+    overflow: auto;
+  }
+
+  .login-form .password-icon,.login-form .username-icon {
+    width:10%;
+    font-size: 27px;
+    position: relative;
+    top: 10px;
+  }
+
   .login-form .username-input ,.login-form .password-input{
-  background-color: transparent;
-  border-color: transparent;
+  background-color: #ffffff;
+  border-color: #ffffff;
   color: #919191;
+  width: 90%;
   border-radius: 0;
   border-bottom: 1px solid #8D8D8D;
+  box-shadow: none;
+  float: right;
+  margin: 10px auto;
+  font-size: 15px;
   }
   .login-form .username-input:focus ,.login-form .password-input:focus {
   background-color: transparent;
